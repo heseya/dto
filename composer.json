@@ -1,0 +1,21 @@
+{
+    "name": "heseya/dto",
+    "description": "Heseya Dto with optional properties",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Heseya\\Dto\\": "src/",
+            "Heseya\\Dto\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bartosz Juraszewski",
+            "email": "bartek@heseya.com"
+        }
+    ]
+}
